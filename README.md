@@ -16,3 +16,5 @@ This notebook was a small project to learn more about LoRA finetuning. It implem
 | LoRA rank = 64                     | 66900                                  | 0.980         |                                              122% |                                      99.6% |
 
 # Experimental Results Visualized
+![Alt text](parameters_vs_accuracy.png)
+![Alt text](rel_parameters_vs_rel_accuracy.png)
