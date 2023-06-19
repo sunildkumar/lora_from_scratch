@@ -1,7 +1,7 @@
 # LoRA from Scratch
 Implements Low-Rank Adaptation(LoRA) Finetuning from scratch. 
 
-This notebook was a small project to learn more about LoRA finetuning. It implements LoRA from scratch primarily using the [paper](https://arxiv.org/abs/2106.09685) as a guide. I found that on a simple model, I could achieve 97.9% of the perfformance of normal finetuning with as little as 7.7% of the trainable weights compared to the traditional approach, which is pretty incredible!
+This notebook was a small project to learn more about LoRA finetuning. It implements LoRA from scratch primarily using the [paper](https://arxiv.org/abs/2106.09685) as a guide. I found that on a simple model, I could achieve 97.9% of the performance of normal finetuning with as little as 7.7% of the trainable weights compared to the traditional approach, which is pretty incredible!
 
 # Experimental Results
 | model                              |approx. number of trainable parameters  | test accuracy | percent trainable parameters relative to baseline | percent test accuracy relative to baseline |
