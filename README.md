@@ -18,7 +18,7 @@ This notebook was a small project to learn more about LoRA finetuning. It implem
 ![Alt text](parameters_vs_accuracy.png)
 
 # Model Implementation
-Exerpt from the notebook with a bit of the model:
+Simplified exerpt from the notebook with a bit of the model:
 ```python
 class LitLoRA(L.LightningModule):
     def __init__(self):
