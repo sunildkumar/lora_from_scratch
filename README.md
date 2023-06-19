@@ -6,7 +6,7 @@ This notebook was a small project to learn more about LoRA finetuning. It implem
 # Experimental Results
 | model                              |approx. number of trainable parameters  | test accuracy | percent trainable parameters relative to baseline | percent test accuracy relative to baseline |
 |------------------------------------|----------------------------------------|---------------|---------------------------------------------------|--------------------------------------------|
-| baseline - whole model finetune    | 54700                                  | 0.984         |                                              100% |                                       100% |
+| baseline - whole model finetune    | 54700                                  | 0.984         |                                               N/A |                                        N/A |
 | LoRA rank = 1                      | 1000                                   | 0.875         |                                              1.8% |                                      88.9% |
 | LoRA rank = 2                      | 2100                                   | 0.931         |                                              3.8% |                                      94.6% |
 | LoRA rank = 4                      | 4200                                   | 0.964         |                                              7.7% |                                      97.9% |
